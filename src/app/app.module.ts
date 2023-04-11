@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';                                        
+import { HomeComponent } from './home/home.component';                                                     
+import { Prac15Component } from './prac15/prac15.component';                                                  
+
 
 @NgModule({
   declarations: [
@@ -15,6 +17,7 @@ import { HomeComponent } from './home/home.component';
     SecondComponent,
     NavbarComponent,
     HomeComponent,
+    Prac15Component,
   ],
   imports: [
     BrowserModule,
@@ -23,4 +26,5 @@ import { HomeComponent } from './home/home.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
