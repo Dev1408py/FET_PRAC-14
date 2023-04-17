@@ -7,7 +7,8 @@ import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { NavbarComponent } from './navbar/navbar.component';                                        
 import { HomeComponent } from './home/home.component';                                                     
-import { Prac15Component } from './prac15/prac15.component';                                                  
+import { Prac15Component } from './prac15/prac15.component';
+import { ProductComponent } from './product/product.component';                                                  
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { Prac15Component } from './prac15/prac15.component';
     NavbarComponent,
     HomeComponent,
     Prac15Component,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
